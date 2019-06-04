@@ -39,6 +39,15 @@
 			<version>${logback.version}</version>
 		</dependency>
 		
+		
+		<dependency>
+			<groupId>org.mybatis</groupId>
+			<artifactId>mybatis-spring</artifactId>
+			<version>1.2.0</version>
+		</dependency>
+		
+		
+		
 	</dependencies>
 
 	<!-- production profile -->
