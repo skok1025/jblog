@@ -1,4 +1,4 @@
-package com.cafe24.config.web;
+package com.cafe24.jblog.config.web;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

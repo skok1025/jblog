@@ -8,9 +8,9 @@
 		<typeAlias type="com.cafe24.jblog.vo.BlogVo" alias="blogvo"/> 
 	</typeAliases>
 	<mappers>
-		<mapper resource="com/cafe24/config/app/mybatis/mapper/user.xml" /> 
-		<mapper resource="com/cafe24/config/app/mybatis/mapper/blog.xml" /> 
-		<mapper resource="com/cafe24/config/app/mybatis/mapper/post.xml" /> 
-		<mapper resource="com/cafe24/config/app/mybatis/mapper/category.xml" /> 
+		<mapper resource="mybatis/mapper/user.xml" /> 
+		<mapper resource="mybatis/mapper/blog.xml" /> 
+		<mapper resource="mybatis/mapper/post.xml" /> 
+		<mapper resource="mybatis/mapper/category.xml" /> 
 	</mappers>
 </configuration>

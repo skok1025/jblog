@@ -1,4 +1,4 @@
-package com.cafe24.config.app;
+package com.cafe24.jblog.config.app;
 
 import javax.sql.DataSource;
 

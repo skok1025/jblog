@@ -1,4 +1,4 @@
-package com.cafe24.config.web;
+package com.cafe24.jblog.config.web;
 
 import java.nio.charset.Charset;
 import java.text.SimpleDateFormat;

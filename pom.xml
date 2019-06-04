@@ -45,15 +45,15 @@
 			<artifactId>spring-context</artifactId>
 			<version>${org.springframework-version}</version>
 		</dependency>
-		
+
 		<!-- Spring jdbc -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-jdbc</artifactId>
 			<version>${org.springframework-version}</version>
 		</dependency>
-		
-		
+
+
 		<!-- Common DBCP -->
 		<dependency>
 			<groupId>commons-dbcp</groupId>
@@ -100,7 +100,7 @@
 			<artifactId>logback-classic</artifactId>
 			<version>${logback.version}</version>
 		</dependency>
-		
+
 		<!-- common fileupload -->
 		<dependency>
 			<groupId>commons-fileupload</groupId>
@@ -112,7 +112,7 @@
 			<artifactId>commons-io</artifactId>
 			<version>1.4</version>
 		</dependency>
-		
+
 		<!-- spring aspect -->
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -154,7 +154,7 @@
 			<version>1.19.0</version>
 			<scope>test</scope>
 		</dependency>
-		
+
 		<!-- java 객체를 json으로 자동 변환 -->
 		<!-- jackson -->
 		<dependency>
@@ -182,6 +182,7 @@
 				<artifactId>maven-war-plugin</artifactId>
 				<version>3.2.1</version>
 				<configuration>
+					<failOnMissingWebXml>false</failOnMissingWebXml>
 					<warSourceDirectory>src/main/webapp</warSourceDirectory>
 				</configuration>
 			</plugin>
