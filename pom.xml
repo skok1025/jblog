@@ -46,13 +46,6 @@
 			<version>${org.springframework-version}</version>
 		</dependency>
 
-
-
-
-
-
-
-
 		<!-- https://mvnrepository.com/artifact/jstl/jstl -->
 		<dependency>
 			<groupId>jstl</groupId>
@@ -129,13 +122,6 @@
 			<version>3.2.2</version>
 		</dependency>
 		
-		<!-- Common DBCP -->
-		<dependency>
-			<groupId>commons-dbcp</groupId>
-			<artifactId>commons-dbcp</artifactId>
-			<version>1.4</version>
-		</dependency>
-
 		<!-- https://mvnrepository.com/artifact/org.mariadb.jdbc/mariadb-java-client -->
 		<dependency>
 			<groupId>org.mariadb.jdbc</groupId>
@@ -147,6 +133,33 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-jdbc</artifactId>
 			<version>${org.springframework-version}</version>
+		</dependency>
+		
+		<!-- Common DBCP -->
+		<dependency>
+			<groupId>commons-dbcp</groupId>
+			<artifactId>commons-dbcp</artifactId>
+			<version>1.4</version>
+		</dependency>
+
+		<!-- Logback -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>jcl-over-slf4j</artifactId>
+			<version>${jcloverslf4j.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<version>${logback.version}</version>
+		</dependency>
+
+		<!-- MyBatis Spring -->
+		<dependency>
+			<groupId>org.mybatis</groupId>
+			<artifactId>mybatis-spring</artifactId>
+			<version>1.2.0</version>
 		</dependency>
 
 	</dependencies>
