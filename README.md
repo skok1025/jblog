@@ -5,3 +5,7 @@
 
 ##jblog04  
 - (SpringMVC: java config 설정, web.xml 대신 ServletContainerInitializer 기반)
+
+##기억할 것
+@RequestMapping("/{id:(?!assets|logos).*}")
+
